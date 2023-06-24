@@ -1,0 +1,5 @@
+boto3==1.26.114
+pandas==2.0.0
+python_dateutil==2.8.2
+pytz==2023.3
+Requests==2.28.2
