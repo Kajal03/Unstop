@@ -1,0 +1,32 @@
+.home-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.train-pic {
+    height: 360px;
+    margin-top: 120px;
+    margin-right: 70px;
+}
+
+.sep-line {
+    border: none;
+    border-top: 3px solid;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+
+.heading {
+    font-size: 52px;
+    font-weight: 500;
+    margin-top: 137px;
+    margin-left: 80px;
+    line-height: 65px;
+    margin-bottom: 30px;
+}
+.heading-caption {
+    margin-left: 80px;
+    font-size: 20px;
+}

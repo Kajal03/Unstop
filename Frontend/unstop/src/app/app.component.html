@@ -1,0 +1,25 @@
+<mat-toolbar color="primary">
+  <div class="brand" routerLink=''>
+    <img class="logo" src="assets/logo.png" alt="" />
+  </div>
+
+  <span class="spacer"></span>
+
+  <ng-container *ngIf="showGetStarted()">
+    <div routerLink='/book-ticket' class="get-started">
+        <span>Get started</span>
+    </div>
+  </ng-container>
+
+</mat-toolbar>
+
+<div class="main">
+  <router-outlet></router-outlet>
+</div>
+
+<mat-toolbar color="primary" class="footer">
+  <span>Built with</span>
+  <i class="fa fa-heart" style="color: rgb(227, 29, 59); padding: 10px;"></i>
+  <span> in India for the world</span>
+
+</mat-toolbar>
